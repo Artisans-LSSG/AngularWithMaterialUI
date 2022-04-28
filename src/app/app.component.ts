@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Demo';
+  title = 'Secure';
   data : boolean = true; 
   toggleForm(){
     return !this.data;

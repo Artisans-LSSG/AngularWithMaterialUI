@@ -41,6 +41,11 @@
   letter-spacing:1px;
   font-family: 'Times New Roman', Times, serif;
   }
-  a{
-    
+  button{
+    color: white;
+    size: 20px;
+  }
+  button:hover{
+    background-color: rgb(241, 62, 122);
+    text-transform: uppercase;
   }

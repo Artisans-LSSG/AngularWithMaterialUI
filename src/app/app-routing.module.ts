@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { AddChildComponent } from './add-child/add-child.component';
 import { ChildComponent } from './child/child.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { HomeComponent } from './home/home.component';
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'dashboard', component: NavigationComponent },
   { path: 'parent', component: ParentComponent },
   { path: 'child', component: ChildComponent },
+  { path: 'addchild', component: AddChildComponent},
 ];
 
 @NgModule({

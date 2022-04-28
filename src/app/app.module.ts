@@ -21,6 +21,11 @@ import { ChildComponent } from './child/child.component';
 import { PChildDailogComponent } from './p-child-dailog/p-child-dailog.component';
 import { PUserDailogComponent } from './p-user-dailog/p-user-dailog.component';
 import { ViewChildDailogComponent } from './view-child-dailog/view-child-dailog.component';
+import { ViewTransactionComponent } from './view-transaction/view-transaction.component';
+import { ChildDeatilsComponent } from './child-deatils/child-deatils.component';
+import { AddChildComponent } from './add-child/add-child.component';
+
+
 
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -42,7 +47,9 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatTableModule} from '@angular/material/table';
-import { ViewTransactionComponent } from './view-transaction/view-transaction.component';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatSortModule} from '@angular/material/sort';
+import {MatRadioModule} from '@angular/material/radio';
 
 
 
@@ -70,6 +77,8 @@ import { ViewTransactionComponent } from './view-transaction/view-transaction.co
     PChildDailogComponent,
     ViewChildDailogComponent,
     ViewTransactionComponent,
+    ChildDeatilsComponent,
+    AddChildComponent,
     
   ],
   imports: [
@@ -94,7 +103,10 @@ import { ViewTransactionComponent } from './view-transaction/view-transaction.co
     MatDatepickerModule,
     MatNativeDateModule,
     MatTabsModule,
-    MatTableModule
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatRadioModule
     
   ],
   providers: [],
